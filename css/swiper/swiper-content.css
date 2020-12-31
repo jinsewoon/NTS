@@ -1,0 +1,73 @@
+html,  body {
+ position: relative;
+ height: 100%;
+}
+
+body {
+ font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ color: #000;
+ margin: 0;
+ padding: 0;
+}
+
+.swiper-container1 {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+
+}
+
+.swiper-slide {
+ text-align: center;
+ font-size: 18px;
+ background: #fff;
+
+ /* Center slide text vertically */
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-box-pack: center;
+ -ms-flex-pack: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+ -webkit-box-align: center;
+ -ms-flex-align: center;
+ -webkit-align-items: center;
+ align-items: center;
+}
+
+.swiper-slide img{
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+
+.swiper-button-next{
+  right:0;
+}
+
+.swiper-button-prev{
+  right:82px;
+}
+
+.swiper-control{
+  position: absolute;
+  bottom: 0;
+  right: 41px;
+  width: 40px;
+  height: 40px;
+  background: #52525285;
+  background-size: 18px 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.swiper-control.play{
+  background-image: url('../../img/main/pop_play.png');
+}
+
+.swiper-control.stop{
+  background-image: url('../../img/main/pop_stop.png');
+}

@@ -1,0 +1,191 @@
+
+.contentBd{
+  padding: 50px 0;
+  .searchBox{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 30px 35px;
+    border: 1px solid #ccc;
+    .selectBox{
+      height: 40px;
+      select{
+        height: 40px;
+        outline: none;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+      }
+    }
+    input{
+      display: block;
+      width: 35%;
+      margin-right: 10px;
+      padding: 5px;
+      outline: none;
+      border: 1px solid #ccc;
+    }
+    .btnSearch{
+      display: flex;
+      align-items: center;
+      outline: none;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      color:#fff;;
+      background-color: #333;
+      padding: 0 20px;
+      &:before{
+        content:'';
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        background-image: url('../img/sub/ico_bbs_srch.png');
+        margin-right: 10px;
+      }
+    }
+  }
+  .noticeBoard{
+
+    .boardInfo{
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0 5px;
+      font-size: 15px;
+      .totalList{
+        p{
+          strong{
+            margin: 0 5px;
+            color: #044ca4;
+          }
+        }
+
+      }
+      .pageNum{
+        display: flex;
+        .current{
+          color: #044ca4;
+          margin: 0 5px;
+        }
+        img{
+          display: inline-block;
+          width: 10px;
+          height: 15px;
+        }
+        .total{
+          margin: 0 5px;
+        }
+
+      }
+    }
+  }
+  table{
+    width: 100%;
+    border-top: 2px solid #334265;
+    thead{
+      tr{
+        th{
+          padding:  12px 10px;
+          background-color: #f9fafb;
+          font-size: 15px;
+          font-weight: 400;
+          border-bottom: 1px solid #eaecf1;
+        }
+        .num{
+          width: 10%;
+        }
+        .title{
+          width: 35%;
+        }
+        .department{
+          width: 15%;
+        }
+        .date{
+          width: 15%;
+        }
+        .file{
+          width: 10%;
+        }
+        .views{
+          width: 15%;
+        }
+      }
+    }
+    tbody{
+      tr{
+        &:hover{
+          background-color: #f9fafb;
+        }
+        td{
+          font-size: 15px;
+          color:#666;
+          padding:  12px 10px;
+          border-bottom: 1px solid #eaecf1;
+          &:hover{
+            text-decoration: underline;
+
+          }
+          &:not(:nth-child(2)){
+            text-align: center;
+          }
+          &:nth-child(2){
+            width: 35%;
+            a{
+              display: block;
+              width: 500px;
+              color: #666;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+    }
+  }
+  .pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    ul{
+      display: flex;
+      li{
+        margin: 0 5px;
+        a{
+          display: block;
+          img{
+            width: 35px;
+            height: 35px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+          }
+        }
+        ul.numbering{
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+          li{
+            margin: 0;
+            a{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 35px;
+              height: 35px;
+              font-size: 15px;
+              color: #333;
+              border-right: 1px solid #ccc;
+              box-sizing: border-box;
+              &.on{
+                color: #fff;
+                background-color: #044ca4;
+              }
+            }
+            &:last-child{
+              a{
+                border-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
