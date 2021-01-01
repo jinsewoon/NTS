@@ -1,0 +1,206 @@
+.contentBd.sub1 {
+  padding: 50px 0;
+}
+
+.contentBd.sub1 .searchBox {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 30px 35px;
+  border: 1px solid #ccc;
+}
+
+.contentBd.sub1 .searchBox .selectBox {
+  height: 40px;
+}
+
+.contentBd.sub1 .searchBox .selectBox select {
+  height: 40px;
+  outline: none;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.contentBd.sub1 .searchBox input {
+  display: block;
+  width: 35%;
+  margin-right: 10px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.contentBd.sub1 .searchBox .btnSearch {
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  color: #fff;
+  background-color: #333;
+  padding: 0 20px;
+}
+
+.contentBd.sub1 .searchBox .btnSearch:before {
+  content: '';
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  background-image: url("../img/sub/ico_bbs_srch.png");
+  margin-right: 10px;
+}
+
+.contentBd.sub1 .noticeBoard .boardInfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 5px;
+  font-size: 15px;
+}
+
+.contentBd.sub1 .noticeBoard .boardInfo .totalList p strong {
+  margin: 0 5px;
+  color: #044ca4;
+}
+
+.contentBd.sub1 .noticeBoard .boardInfo .pageNum {
+  display: flex;
+}
+
+.contentBd.sub1 .noticeBoard .boardInfo .pageNum .current {
+  color: #044ca4;
+  margin: 0 5px;
+}
+
+.contentBd.sub1 .noticeBoard .boardInfo .pageNum img {
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+}
+
+.contentBd.sub1 .noticeBoard .boardInfo .pageNum .total {
+  margin: 0 5px;
+}
+
+.contentBd.sub1 table {
+  width: 100%;
+  border-top: 2px solid #334265;
+}
+
+.contentBd.sub1 table thead tr th {
+  padding: 12px 10px;
+  background-color: #f9fafb;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid #eaecf1;
+}
+
+.contentBd.sub1 table thead tr .num {
+  width: 10%;
+}
+
+.contentBd.sub1 table thead tr .title {
+  width: 35%;
+}
+
+.contentBd.sub1 table thead tr .department {
+  width: 15%;
+}
+
+.contentBd.sub1 table thead tr .date {
+  width: 15%;
+}
+
+.contentBd.sub1 table thead tr .file {
+  width: 10%;
+}
+
+.contentBd.sub1 table thead tr .views {
+  width: 15%;
+}
+
+.contentBd.sub1 table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.contentBd.sub1 table tbody tr td {
+  font-size: 15px;
+  color: #666;
+  padding: 12px 10px;
+  border-bottom: 1px solid #eaecf1;
+}
+
+.contentBd.sub1 table tbody tr td:hover {
+  text-decoration: underline;
+}
+
+.contentBd.sub1 table tbody tr td:not(:nth-child(2)) {
+  text-align: center;
+}
+
+.contentBd.sub1 table tbody tr td:nth-child(2) {
+  width: 35%;
+}
+
+.contentBd.sub1 table tbody tr td:nth-child(2) a {
+  display: block;
+  width: 500px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.contentBd.sub1 .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.contentBd.sub1 .pagination ul {
+  display: flex;
+}
+
+.contentBd.sub1 .pagination ul li {
+  margin: 0 5px;
+}
+
+.contentBd.sub1 .pagination ul li a {
+  display: block;
+}
+
+.contentBd.sub1 .pagination ul li a img {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contentBd.sub1 .pagination ul li ul.numbering {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contentBd.sub1 .pagination ul li ul.numbering li {
+  margin: 0;
+}
+
+.contentBd.sub1 .pagination ul li ul.numbering li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+  color: #333;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contentBd.sub1 .pagination ul li ul.numbering li a.on {
+  color: #fff;
+  background-color: #044ca4;
+}
+
+.contentBd.sub1 .pagination ul li ul.numbering li:last-child a {
+  border-right: 0;
+}

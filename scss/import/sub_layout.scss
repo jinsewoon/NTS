@@ -68,7 +68,13 @@
               display: block;
             }
             li{
+              position: relative;
               border: 0;
+              &.link{
+                position: absolute;
+                top: 10px;
+                right:10px;
+              }
               a{
                 color: #666666;
               }
@@ -156,8 +162,12 @@
             .home{
               &:before{
                 background-image: url('../img/sub/ico_home.png');
-
               }
+            }
+            .current{
+              color: #043763;
+              font-weight: 600;
+
             }
           }
         }

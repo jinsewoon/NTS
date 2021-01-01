@@ -84,7 +84,14 @@
 }
 
 #container.subpage .innerWrap #lnb .lnbBd li .innerMenu li {
+  position: relative;
   border: 0;
+}
+
+#container.subpage .innerWrap #lnb .lnbBd li .innerMenu li.link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 #container.subpage .innerWrap #lnb .lnbBd li .innerMenu li a {
@@ -185,6 +192,11 @@
 
 #container.subpage .innerWrap #mainContent .contentHd .hdLeft .route .home:before {
   background-image: url("../img/sub/ico_home.png");
+}
+
+#container.subpage .innerWrap #mainContent .contentHd .hdLeft .route .current {
+  color: #043763;
+  font-weight: 600;
 }
 
 #container.subpage .innerWrap #mainContent .contentHd .hdRight {

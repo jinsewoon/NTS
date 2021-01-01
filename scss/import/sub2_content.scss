@@ -1,0 +1,96 @@
+.contentBd.sub2{
+  margin: 50px 0;
+  ul.tabs{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #0559a7;
+    box-sizing: border-box;
+    .tab-link{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 50px;
+      background-color: #fff;
+      border: 1px solid #cbcbcb;
+      box-sizing: border-box;
+      font-size: 16px;
+      font-weight: 200;
+      cursor: pointer;
+      &.current{
+        border: none;
+        background-color: #0a64b8;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+      }
+    }
+  }
+  .tab-content{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f1f4f7;
+    padding: 20px 15px;
+    &.current{
+      display: flex;
+    }
+    .item{
+      width: calc(30% - 30px);
+      height: 300px;
+      border: 1px solid black;
+      margin: 15px 0;
+      padding: 20px;
+      background-color: #fff;
+      background-image: url('../img/sub/guideMap_box_bg01.png');
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      border-radius: 15px;
+      box-shadow: 5px 5px 0px black;
+      &:nth-child(2){ background-image: url('../img/sub/guideMap_box_bg02.png'); }
+      &:nth-child(3){ background-image: url('../img/sub/guideMap_box_bg03.png'); }
+      &:nth-child(4){ background-image: url('../img/sub/guideMap_box_bg04.png'); }
+      &:nth-child(5){ background-image: url('../img/sub/guideMap_box_bg05.png'); }
+      &:nth-child(6){ background-image: url('../img/sub/guideMap_box_bg06.png'); }
+      .hdBox{
+        display: flex;
+        align-items: center;
+        padding: 20px 10px 20px 0;
+        border-bottom: 2px solid black;
+        cursor: default;
+        img{
+          margin-right: 10px;
+        }
+        h2{
+          font-size: 16px;
+          strong{
+            font-size: 21px;
+          }
+        }
+      }
+      ul.bdBox{
+        padding: 20px 10px 20px 0;
+        li{
+          list-style: disc;
+          list-style-position: inside;
+          margin: 10px 0;
+          a{
+            font-size: 16px;
+            font-weight: bolder;
+            &:hover{
+              text-decoration: underline;
+              text-underline-position: under;//firefox와 opera. safari 적용안됨
+            }
+          }
+        }
+      }
+    }
+    &:nth-of-type(2){
+      .item{
+        background-image: url('../img/sub/guideMap_box_page02_bg01.png');
+        &:nth-child(2){ background-image: url('../img/sub/guideMap_box_page02_bg02.png'); }
+        &:nth-child(3){ background-image: url('../img/sub/guideMap_box_page02_bg03.png'); }
+      }
+    }
+  }
+}

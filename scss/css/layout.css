@@ -325,13 +325,13 @@
   padding: 10px 0 10px 10px;
 }
 
-#header #dropMenu .innerWrap ul.submenu li .sign {
+#header #dropMenu .innerWrap ul.submenu li .more {
   position: absolute;
   top: 15px;
   right: 10px;
 }
 
-#header #dropMenu .innerWrap ul.submenu li .sign.on {
+#header #dropMenu .innerWrap ul.submenu li .more.on {
   transform: rotate(90deg);
 }
 
