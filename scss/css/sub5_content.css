@@ -1,0 +1,168 @@
+.contentBd.sub5 {
+  margin-top: 50px;
+}
+
+.contentBd.sub5 .btnBox {
+  border: 4px solid #dfe6ee;
+  margin-bottom: 50px;
+}
+
+.contentBd.sub5 .btnBox ul {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+.contentBd.sub5 .btnBox ul:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/sub/bg_tab_list.png");
+}
+
+.contentBd.sub5 .btnBox ul li {
+  width: 25%;
+  margin: 5px 0;
+}
+
+.contentBd.sub5 .btnBox ul li a {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 25px;
+}
+
+.contentBd.sub5 .btnBox ul li a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background-image: url("../img/sub/tab_list_off.png");
+}
+
+.contentBd.sub5 .btnBox ul li a:hover {
+  color: #043763;
+  text-decoration: underline;
+}
+
+.contentBd.sub5 .btnBox ul li a:hover:before {
+  background-image: url("../img/sub/tab_list_on.png");
+}
+
+.contentBd.sub5 .fileBox {
+  margin-bottom: 50px;
+}
+
+.contentBd.sub5 .fileBox .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contentBd.sub5 .fileBox .title:before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+  background-image: url("../img/sub/bu_tit2.png");
+}
+
+.contentBd.sub5 .fileBox table {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+}
+
+.contentBd.sub5 .fileBox table tr {
+  height: 45px;
+}
+
+.contentBd.sub5 .fileBox table tr td {
+  width: 33.33%;
+  border: 1px dashed #cbcbcb;
+  padding: 10px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.contentBd.sub5 .fileBox table tr td .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentBd.sub5 .fileBox table tr td .wrap a {
+  display: inline-block;
+  width: 80%;
+  position: relative;
+  font-size: 15px;
+  float: left;
+  margin-left: 10px;
+  padding-right: 30px;
+}
+
+.contentBd.sub5 .fileBox table tr td .wrap a:hover {
+  color: #1476e1;
+  text-decoration: underline;
+}
+
+.contentBd.sub5 .fileBox table tr td .wrap img {
+  width: 18px;
+  height: 18px;
+}
+
+.contentBd.sub5 .fileBox table tr td .wrap img:nth-of-type(2) {
+  width: 15px;
+  height: 15px;
+}
+
+.contentBd.sub5 .administrator {
+  margin-bottom: 50px;
+}
+
+.contentBd.sub5 .administrator table {
+  width: 100%;
+}
+
+.contentBd.sub5 .administrator table thead tr {
+  height: 40px;
+  border-top: 2px solid #333;
+}
+
+.contentBd.sub5 .administrator table thead tr th {
+  width: 25%;
+  font-size: 15px;
+  font-weight: 400;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.contentBd.sub5 .administrator table thead tr th:not(:last-child) {
+  border-right: 1px solid #cbcbcb;
+}
+
+.contentBd.sub5 .administrator table tbody tr {
+  height: 40px;
+}
+
+.contentBd.sub5 .administrator table tbody tr td {
+  width: 25%;
+  font-size: 15px;
+  font-weight: 400;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.contentBd.sub5 .administrator table tbody tr td:not(:last-child) {
+  border-right: 1px solid #cbcbcb;
+}
