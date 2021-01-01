@@ -1,0 +1,70 @@
+.contentBd.sub4 {
+  margin-top: 50px;
+}
+
+.contentBd.sub4 .pageInfo {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-image: url("../img/sub/pt_diagonalG.png");
+  background-repeat: repeat;
+}
+
+.contentBd.sub4 .pageInfo .infoBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.contentBd.sub4 .pageInfo .infoBox .textBox {
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+.contentBd.sub4 .pageInfo .infoBox .textBox p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.contentBd.sub4 .pageInfoList {
+  padding: 40px 0 40px 20px;
+}
+
+.contentBd.sub4 .pageInfoList ul li {
+  padding: 20px 0;
+}
+
+.contentBd.sub4 .pageInfoList ul li h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contentBd.sub4 .pageInfoList ul li h3:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  background-image: url("../img/sub/bu_tit3.png");
+}
+
+.contentBd.sub4 .pageInfoList ul li p {
+  position: relative;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-left: 40px;
+  margin: 10px 0;
+}
+
+.contentBd.sub4 .pageInfoList ul li p:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 9px;
+  height: 3px;
+  margin-right: 10px;
+  background-color: #043763;
+}

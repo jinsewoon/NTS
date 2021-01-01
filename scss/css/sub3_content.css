@@ -1,0 +1,306 @@
+.contentBd.sub3 {
+  margin: 50px 0;
+}
+
+.contentBd.sub3 .mainSection .mainTitle {
+  font-size: 22px;
+  color: #2174c8;
+  margin-bottom: 20px;
+}
+
+.contentBd.sub3 .mainSection .mainTitle:before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  background-image: url("../img/sub/bu_tit1.png");
+}
+
+.contentBd.sub3 .mainSection .desc {
+  font-size: 15px;
+  text-indent: 2rem;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.contentBd.sub3 .mainSection .subScetion {
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.contentBd.sub3 .mainSection .subScetion .subTitle {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.contentBd.sub3 .mainSection .subScetion .subTitle:before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+  background-image: url("../img/sub/bu_tit2.png");
+}
+
+.contentBd.sub3 .mainSection .subScetion .subDesc {
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip {
+  border: 1px solid #cbcbcb;
+  box-sizing: border-box;
+  padding: 20px 40px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  height: 100%;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  font-size: 17px;
+  color: #fff;
+  border: 1px solid #cbcbcb;
+  border-radius: 15px;
+  background-color: #309bdc;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .arrow {
+  display: block;
+  width: 10%;
+  background-image: url("../img/sub/img21131_arr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right {
+  width: 65%;
+  font-size: 15px;
+  border: 1px solid #cbcbcb;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right ul {
+  padding: 12px 20px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right ul li {
+  position: relative;
+  padding-left: 15px;
+  line-height: 1.5;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right ul li:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 100%;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right ul li a {
+  color: #003873;
+  margin: 0 10px;
+  text-decoration-line: underline;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right ul li a:after {
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-left: 5px;
+  background-image: url("../img/sub/r_i_btn_link_blue.png");
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right ul li ul {
+  padding: 10px 0 0 0;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right ul li ul li {
+  position: relative;
+  padding: 5px 0px 5px 20px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no1 .paymentTip .method .right ul li ul li:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: #999;
+  border-radius: 100%;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table {
+  width: 100%;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table thead {
+  border-top: 2px solid #333;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table thead tr th {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f4f4f4;
+  border: 1px solid #cbcbcb;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table thead tr .h_name {
+  width: 20%;
+  height: 80px;
+  border-left: 0;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table thead tr .h_domain {
+  width: 20%;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table thead tr .h_process {
+  width: 60%;
+  border-right: 0;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table tbody tr td {
+  height: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #cbcbcb;
+  box-sizing: border-box;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table tbody tr .b_name {
+  width: 20%;
+  border-left: 0;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table tbody tr .b_domain {
+  width: 20%;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table tbody tr .b_domain a {
+  color: #003873;
+  text-decoration: underline;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table tbody tr .b_domain a:after {
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-left: 10px;
+  background-image: url("../img/sub/r_i_btn_link_blue.png");
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table tbody tr .b_arsProcess {
+  border-right: 0;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap table tbody tr .b_process {
+  width: 60%;
+  border-right: 0;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap .notice {
+  margin: 10px 0 20px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap .notice .info {
+  position: relative;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+  text-indent: 20px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no2 .contetnWrap .notice .info:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background-color: #666;
+  border-radius: 100%;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no3 .contentWrap .itemBox {
+  display: inline-block;
+  width: 40%;
+  margin-left: 20px;
+  padding: 30px;
+  border: 1px solid #cbcbcb;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no3 .contentWrap .itemBox h2 {
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no3 .contentWrap .itemBox .linkWrap {
+  display: flex;
+  align-items: center;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no3 .contentWrap .itemBox .linkWrap .link {
+  font-size: 15px;
+  color: #003873;
+  margin: 0 10px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no4 .contentWrap .itemBox {
+  display: inline-block;
+  width: 40%;
+  margin-left: 20px;
+  padding: 30px;
+  border: 1px solid #cbcbcb;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no4 .contentWrap .itemBox h2 {
+  font-size: 17px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no4 .contentWrap .itemBox .linkWrap {
+  display: flex;
+  align-items: center;
+}
+
+.contentBd.sub3 .mainSection .subScetion.no4 .contentWrap .itemBox .linkWrap .link {
+  font-size: 15px;
+  color: #003873;
+  margin: 0 10px;
+}
