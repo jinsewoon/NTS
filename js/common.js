@@ -77,11 +77,6 @@ $(function(){
     $(".bg").addClass("active");
     $("#dropMenu").addClass("active");
   });
-
-  // $(".minus").click(function(){
-  //   $("html").css("transform","scale(0.8)");
-  // });
-
   //.innerMenu의 드랍 애니메이션
   $(".submenu > li > a").click(function(){
     $(".sign").removeClass("on")
@@ -105,10 +100,8 @@ $(function(){
   //box3 탭메뉴구성
   $('.box3 ul.tabs .tab-link').mouseover(function(){
     var tab_id = $(this).attr('data-tab');
-
     $('.box3 ul.tabs .tab-link').removeClass('current');
     $('.box3 .tab-content').removeClass('current');
-
     $(this).addClass('current');
     $(".box3 #"+tab_id).addClass('current');
     //more버튼  첫번째 탭에서만 보이기
@@ -121,10 +114,8 @@ $(function(){
   //box5 탭메뉴구성
   $('.box5 ul.tabs .tab-link').mouseover(function(){
     var tab_id = $(this).attr('data-tab');
-
     $('.box5 ul.tabs .tab-link').removeClass('current');
     $('.box5 .tab-content').removeClass('current');
-
     $(this).addClass('current');
     $(".box5 #"+tab_id).addClass('current');
     //more버튼  첫번째 탭에서만 보이기
@@ -146,4 +137,24 @@ $(function(){
     return false;
   });
 
+  $(".dateS").click(function(){
+    if( $(this).hasClass("current") == false ){
+      var textAdd = $(this).text();
+      var textP = $(this).find("p");
+      $(".dateS").removeClass("current");
+      $(this).addClass("current");
+      $(".suffix").removeClass("on");
+      $(this).children(".suffix").addClass("on");
+      console.log($(this).index())
+      var thisIndex = $(this).index();
+      var thisIndexNum = thisIndex - 3;
+      $(".list").removeClass("current");
+      $("#li"+thisIndexNum+"").addClass("current");
+    }else{
+
+
+
+
+    }
+  });
 });// document ready
