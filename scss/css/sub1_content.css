@@ -87,7 +87,8 @@
 }
 
 .contentBd.sub1 table thead tr th {
-  padding: 12px 10px;
+  padding: 12px 0;
+  vertical-align: middle;
   background-color: #f9fafb;
   font-size: 15px;
   font-weight: 400;
@@ -99,7 +100,7 @@
 }
 
 .contentBd.sub1 table thead tr .title {
-  width: 35%;
+  width: 40%;
 }
 
 .contentBd.sub1 table thead tr .department {
@@ -115,7 +116,7 @@
 }
 
 .contentBd.sub1 table thead tr .views {
-  width: 15%;
+  width: 10%;
 }
 
 .contentBd.sub1 table tbody tr:hover {
@@ -123,9 +124,10 @@
 }
 
 .contentBd.sub1 table tbody tr td {
+  padding: 12px 0;
   font-size: 15px;
   color: #666;
-  padding: 12px 10px;
+  vertical-align: middle;
   border-bottom: 1px solid #eaecf1;
 }
 
@@ -143,11 +145,7 @@
 
 .contentBd.sub1 table tbody tr td:nth-child(2) a {
   display: block;
-  width: 500px;
   color: #666;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .contentBd.sub1 .pagination {

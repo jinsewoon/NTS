@@ -79,10 +79,12 @@
   table{
     width: 100%;
     border-top: 2px solid #334265;
+
     thead{
       tr{
         th{
-          padding:  12px 10px;
+          padding: 12px 0;
+          vertical-align: middle;
           background-color: #f9fafb;
           font-size: 15px;
           font-weight: 400;
@@ -92,7 +94,7 @@
           width: 10%;
         }
         .title{
-          width: 35%;
+          width: 40%;
         }
         .department{
           width: 15%;
@@ -104,7 +106,7 @@
           width: 10%;
         }
         .views{
-          width: 15%;
+          width: 10%;
         }
       }
     }
@@ -114,9 +116,10 @@
           background-color: #f9fafb;
         }
         td{
+          padding: 12px 0;
           font-size: 15px;
           color:#666;
-          padding:  12px 10px;
+          vertical-align: middle;
           border-bottom: 1px solid #eaecf1;
           &:hover{
             text-decoration: underline;
@@ -129,11 +132,11 @@
             width: 35%;
             a{
               display: block;
-              width: 500px;
+              // width: 400px;
               color: #666;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              white-space: nowrap;
+              // overflow: hidden;
+              // text-overflow: ellipsis;
+              // white-space: nowrap;
             }
           }
         }

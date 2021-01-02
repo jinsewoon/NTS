@@ -4,8 +4,10 @@ $(function(){
    var wScrollTop = $(window).scrollTop();//127(헤더 높이)보다 클때 메뉴바 따라내려오기
    if( wScrollTop > 70){
      $("#aside").addClass("fixed");
+     $(".back_top").css("display","flex");
    }else{
      $("#aside").removeClass("fixed");
+     $(".back_top").hide();
    }
  });
 //scrollTop == 0로 이동
@@ -150,11 +152,17 @@ $(function(){
       var thisIndexNum = thisIndex - 3;
       $(".list").removeClass("current");
       $("#li"+thisIndexNum+"").addClass("current");
-    }else{
-
-
-
-
     }
+  });
+
+  //aside 활성화
+  $(".asideBtn").click(function(){
+    $(this).fadeOut();
+    $(".quickMenu").css("transform","translateX(12%)");
+  });
+  $(".asideClose").click(function(){
+    $(".quickMenu").css("transform","translateX(200%)");
+    $(".asideBtn").fadeIn("slow");
+    return false;
   });
 });// document ready

@@ -476,6 +476,18 @@
   background-color: #32973b;
 }
 
+#container .innerWrap .bannerBox .subbanner.bn7 {
+  background-image: url("../img/main/bgBanner7.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#container .innerWrap .bannerBox .subbanner.bn8 {
+  background-image: url("../img/main/bgBanner8.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
 #container .innerWrap .bannerBox .subbanner.bn8 .info {
   color: #253a7e;
 }
